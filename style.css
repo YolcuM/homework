@@ -1,0 +1,90 @@
+.header,
+.main,
+.flexcontainer,
+.flexel,
+.flexel_big
+.aside,
+.footer
+.flex
+.footer-item {
+display: flex;
+}
+
+header{
+text-align: center;
+border: 1px solid red;
+justify-content: center;
+flex: 0 0 content;
+background-color:azure
+}
+
+.flexcontainer{
+gap: 120px;
+flex-direction: column;
+justify-content:space-around;
+align-items: stretch;
+}
+.flexel{
+background-color:yellow;
+border: 1px solid red;
+flex-direction: row;
+align-items: stretch;
+justify-content:space-between;
+margin-top: 10px;
+height: 50px;
+width: 50px;} 
+
+
+
+.flexel_big{
+background-color:yellow;
+border: 1px solid red;
+margin-top: 10px;
+margin:auto 0;
+align-items: stretch;
+height: 30px;
+width: 200px;}
+
+
+aside{
+border: 1px solid red;
+width: 300px;
+background-color:aquamarine
+
+}
+.main{
+border: 1px solid red;
+justify-content: space-between;
+min-height: 50vh;
+background-color: #f8eda0;
+
+}
+
+footer{
+color: rgb(10, 9, 9);
+background-color: darkgrey;
+flex-wrap: wrap;
+flex: 0 0 content;
+
+
+}
+.flex{
+border: 1px solid red;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 100px; 
+}
+div p{display: flex;
+flex: 1 2 1;
+}
+.item{
+background-color: beige;
+margin-top: 10px;
+height: 80px;
+width: 130px;
+display: flex;
+text-align: center;
+align-items: center;
+}
+

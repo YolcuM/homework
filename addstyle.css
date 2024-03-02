@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 10px;
+    }
+    .Magic{
+    display: flex;
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    }
+    h1,h2{
+
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        color: rgb(116, 8, 8);
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+.hover-image-scale {
+display: inline-block; 
+overflow: hidden;
+display: flex;
+margin: 5px;
+height: 300px;
+width: 300px;
+}
+.hover-image-scale img {
+transition: 1s;
+display: block; 
+}
+.hover-image-scale img:hover {
+transform: scale(1.2);
+}
